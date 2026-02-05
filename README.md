@@ -11,7 +11,7 @@ As part of my MSc in Embedded AI, this project demonstrates the mathematical opt
 | **Latency** | Baseline | 3.2x Faster | Optimized |
 
 ### 🛠️ The Math Behind the Code
-Using the linear mapping $x = S(q - Z)$, I transformed the weights from 32-bit floating point to 8-bit integers. This allows the model to run on microcontrollers (like ESP32 or STM32) that lack a Floating Point Unit (FPU).
+Using the linear mapping _**x = S(q - Z)**_, I transformed the weights from 32-bit floating point to 8-bit integers. This allows the model to run on microcontrollers (like ESP32 or STM32) that lack a Floating Point Unit (FPU).
 
 ### 🚀 How to Run
 1. Clone the repo.
